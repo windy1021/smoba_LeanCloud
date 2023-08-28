@@ -1,10 +1,8 @@
-# Go Getting started
+# smoba
+* 王者营地自动签到每周浏览点赞任务
+* 支持多账号
+* 微信推送
+* 华为云函数，免费自动每天刷
 
-A simple Go application based on [Echo](https://echo.labstack.com/) for [LeanEngine] Go runtime.
-
-[LeanEngine]: https://docs.leancloud.cn/en/sdk/engine/overview/
-
-## Documentation
-
-* [Go SDK API](https://pkg.go.dev/github.com/leancloud/go-sdk/leancloud)
-* [lean-cli Guide](https://docs.leancloud.cn/en/sdk/engine/cli/)
+## 使用手册
+[使用手册](https://gosmoba.vercel.app/)
