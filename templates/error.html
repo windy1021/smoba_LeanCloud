@@ -1,0 +1,15 @@
+{{define "error"}}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Error</title>
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+  </head>
+  <body>
+    <h1>{{.Message}}</h1>
+    <h2>{{.Status}}</h2>
+    <pre>{{.Error}}</pre>
+  </body>
+</html>
+{{end}}

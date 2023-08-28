@@ -1,0 +1,22 @@
+{{define "todos"}}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Todo</title>
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon"> 
+  </head>
+  <body>
+    <h1>{{.Title}}</h1>
+    <form action="/todos" method="POST">
+      <input type="text" name="content">
+      <input type="submit" value="New todo">
+    </form>
+    <ul>
+      {{range .Todos}}
+        <li>{{.Content}}</li>
+      {{end}}
+    </ul>
+  </body>
+</html>
+{{end}}
